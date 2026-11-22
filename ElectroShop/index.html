@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ElectroShop</title>
+    <style>
+        body {
+            background-color: #FBEFF2;
+            color: #4A1220;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 32px;
+        }
+
+        h1 {
+            color: #7A1C32;
+            margin-bottom: 20px;
+        }
+
+        #LoadProductsbtn {
+            background-color: #7A1C32;
+            color: #FFF8FA;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 6px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        #LoadProductsbtn:hover {
+            background-color: #4A1220;
+        }
+
+        #products {
+            margin-top: 24px;
+            display: grid;
+            gap: 16px;
+            max-width: 600px;
+        }
+
+        .product {
+            background-color: #FFF8FA;
+            border: 1px solid #E8B4C2;
+            border-left: 5px solid #7A1C32;
+            border-radius: 8px;
+            padding: 16px;
+        }
+
+        .product h2 {
+            margin: 0 0 8px 0;
+            color: #7A1C32;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to ElectroShop</h1>
+    <button id="LoadProductsbtn">Load Products</button>
+    <div id="products"></div>
+
+    <script src="index.js"></script>
+</body>
+</html>
